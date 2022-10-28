@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    width: 100vw;
+    padding-top: 1em;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 8vh;
+}
+.header .head{
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 35vw;
+}
+.header .links{
+    width: 35vw;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    font-size: 16px;
+}
+.topb,.footer{
+    background-color: #1F2937;
+    color:#F9FAF8;
+    justify-content: center;
+    display: inline-flex;
+    gap: 30px;
+    width: 100vw;
+}
+.topb {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.footer {
+    height: 5vh;
+    text-align: center;
+}
+.topb .holdone,.holdtwo{
+    width: 35vw;
+    height: 50vh;
+}
+.topb .holdone .but{
+    width: 20px;
+    height: 10px;
+    background-color: #3882F6;
+    padding: 10px;
+    margin-top: 10px;
+}
+.topb .holdtwo{
+    height: auto;
+    width: 35vw;
+    background-image: url("images/pexels-valeria-boltneva-1805164.jpg");
+    background-position: center; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.topb .main{
+    font-size: 48px;
+}
+.topb .second{
+    font-size: 16px;
+    color: #E5E7E8;
+    font-weight: lighter;
+    display: block;
+}
+.info{
+    width: 100vw;
+    padding-top: 20vh;
+}
+.info .infohead{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info .holditem,.holdtext{
+    display: inline-flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100vw;
+}
+.holditem .item{
+    width: 140px;
+    height: 140px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: solid 8px #3882f6;
+    margin-top: 10px;
+}
+.item:nth-child(1) {
+    background-image: url("images/pexels-valeria-boltneva-1805164.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+.item:nth-child(2) {
+    background-image: url("images/pexels-charles-1851164.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+.item:nth-child(3) {
+    background-image: url("images/pexels-helena-lopes-2253275.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+.item:nth-child(4) {
+    background-image: url("images/pexels-dominika-roseclay-2023384.jpg");
+    background-position: center; /* Center the image */
+    background-size: cover;
+}
+.holdtext .text{
+    width: 140px;
+    height: 140px;
+    font-size: 16px;
+    color: #1F2937;
+    text-align: center;
+    /*background-color: #ffffff;*/
+    border-radius: 10px;
+    border: solid 8px #ffffff;
+    /*margin-top: 10px;*/
+}
+.quote {
+    background-color: #e5e7eb;
+    color:#1f2937;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    /*gap: 10px;*/
+    width: 100vw;
+    height: 60vh;
+    /*padding-top: 20vh;*/
+    align-items: center;
+}
+.quote .content{
+    width: 60vw;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote .author{
+    width: 60vw;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: right;
+}
+.last {
+    color: #ffffff;
+    display: inline-flex;
+    justify-content: center;
+    /*gap: 10px;*/
+    width: 100vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+}
+.last .bluebox {
+    width: 65vw;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    padding: 5em;
+}
+.last .bluebox p {
+    font-weight: bolder;
+}
